@@ -260,6 +260,7 @@ nav {
   display: flex;
   flex-direction: column;
   row-gap: 2.5rem;
+  padding: 0;
 }
 
 .nav_link {
@@ -344,6 +345,7 @@ nav {
 .home_data-subtitle {
   display: block;
   font-weight: var(--font-semi-bold);
+  font-size: 25px;
   margin-bottom: var(--mb-0-75);
 }
 .home_data-title {
@@ -1028,6 +1030,7 @@ body.dark-theme {
   .nav_list {
     flex-direction: row;
     column-gap: 4rem;
+    padding: 0px!important;
   }
   .nav_toggle,
   .nav_close,
