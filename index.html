@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--  liens youtube:  2h11.25 min -> https://www.youtube.com/watch?v=YzRDHxbw1RU&t=6021s -->
+
+  <!-- FAVICON  -->
+
+  <!-- REMIX ICON  copie CDN -->
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://fr.freepik.com/" rel="stylesheet">
+
+  <!-- SWIPER CSS -->
+
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="style.css">
+
+
+
+  <title>Ride & Graffitis</title>
+</head>
+
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav_logo">Travel</a>
+
+      <div class="nav_menu" id="nav-menu">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="#home" class="nav_link active-link ">Home</a>
+          </li>
+          <li class="nav_item">
+            <a href="#about" class="nav_link  ">About</a>
+          </li>
+          <li class="nav_item">
+            <a href="#discover" class="nav_link ">Discover</a>
+          </li>
+          <li class="nav_item">
+            <a href="#place" class="nav_link ">Place</a>
+          </li>
+        </ul>
+
+        <div class="nav_dark">
+          <!-- Theme chang button -->
+          <span class="change-theme-name">Dark mode</span>
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+        </div>
+
+        <i class="ri-close-line nav_close" id="nav-close"></i>
+      </div>
+
+      <div class="nav_toggle" id="nav-toggle">
+        <i class="ri-function-line"></i>
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <!-- HOME -->
+    <section class="home" id="home">
+      <img src="Graff5.jpg" alt="L.Hill" class="home_img">
+
+      <div class="home_container container grid">
+        <div class="home_data">
+          <span class="home_data-subtitle">Discover your place</span>
+          <h1 class="home_data-title">Explore The <br>Best <b> Beautiful <br>Spot</b></h1>
+          <a href="" class="button">Explore</a>
+        </div>
+        <div class="social-infos_grid">
+          <div class="home_social">
+            <a href="https://www.facebook.com/" target="_blank" class="home_social-link"><i
+                class="ri-facebook-box-fill"></i></a>
+
+            <a href="https://www.instagram.com/" target="_blank" class="home_social-link"><i
+                class="ri-instagram-fill"></i></a>
+
+            <a href="https://twitter.com/" target="_blank" class="home_social-link"><i class="ri-twitter-fill"></i></a>
+          </div>
+          <div class="home_info">
+            <div>
+              <span class="home_info-title">5 best spots to visit</span>
+              <a href="#" class="button button--flex button--link home_info-button">
+                More<i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+            <div class="home_info-overlay">
+              <img src="Graff6.jpg" class="home_info-img" class="Graff6-img" alt="Afro-color">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="about_container container grid">
+        <div class="about_data">
+          <h2 class="section_title about_title">Plus d'information</h2>
+          <p class="about_description">Choisisssez le spot que vous voulez découvrir, on vous enverra sa géolocalisation
+          </p>
+          <a href="" class="button">Reserver une place</a>
+        </div>
+        <div class="about_img">
+          <div class="about_img-overlay">
+            <img src="Graff9.jpg" alt="" class="about_img-one">
+          </div>
+          <div class="about_img-overlay">
+            <img src="Graff10.jpg" alt="" class="about_img-two">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DISCOVER -->
+    <section class="discover section" id="discover">
+      <h2 class="section_title">Découvrez les spots <br> les plus impressionnants</h2>
+      <div class="discover_container container swiper">
+        <div class="swiper-wrapper">
+          <!--=========DISCOVER 1==========-->
+          <div class="discover_card swiper-slide">
+            <img src="Graff7.jpg" alt="" class="discover_img">
+            <div class="discover_data">
+              <h2 class="discover_title">Al Pacino-Artiste Rast</h2>
+              <span class="discover_description">Dans la ville de Bordeaux</span>
+            </div>
+          </div>
+
+          <!--=========DISCOVER 2==========-->
+          <div class="discover_card swiper-slide">
+            <img src="Graff8.jpg" alt="" class="discover_img">
+            <div class="discover_data">
+              <h2 class="discover_title">De Niro-Artiste Rast</h2>
+              <span class="discover_description">Dans la ville de Bordeaux</span>
+            </div>
+          </div>
+
+          <!--=========DISCOVER 3==========-->
+          <div class="discover_card swiper-slide">
+            <img src="Graff12.jpg" alt="" class="discover_img">
+            <div class="discover_data">
+              <h2 class="discover_title">De Funès-Artiste Rast</h2>
+              <span class="discover_description">Dans la ville de Bordeaux</span>
+            </div>
+          </div>
+
+          <!--=========DISCOVER 4==========-->
+          <div class="discover_card swiper-slide">
+            <img src="Graff11.jpg" alt="" class="discover_img">
+            <div class="discover_data">
+              <h2 class="discover_title">J.Nicholson-Artiste Rast</h2>
+              <span class="discover_description">Dans la ville de Bordeaux</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!--=========EXPERIENCE==========-->
+    <section class="experience section">
+      <h2 class="section_title">Avec notre experience <br>nous vous servirons</h2>
+
+      <div class="experience_container container grid">
+        <div class="experience_content grid">
+          <div class="experience_data">
+            <h2 class="experience_number">20</h2>
+            <span class="experience_description">Ans <br>d'Experience</span>
+          </div>
+
+          <div class="experience_data">
+            <h2 class="experience_number">75</h2>
+            <span class="experience_description">Visites <br>Guidées</span>
+          </div>
+
+          <div class="experience_data">
+            <h2 class="experience_number">200+</h2>
+            <span class="experience_description">Nouveaux <br>Artistes</span>
+          </div>
+        </div>
+        <div class="experience_img grid">
+          <div class="experience_overlay">
+            <img src="Graff15.jpg" alt="" class="experience_img-one">
+          </div>
+
+          <div class="experience_overlay">
+            <img src="Graff17.jpg" alt="" class="experience_img-two">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- VIDEO -->
+
+    <section class="video section">
+      <h2 class="section_title">Video Performance</h2>
+      <div class="video_container container">
+        <p class="video_description">Bloc de béton/camion</p>
+        <div class="video_content">
+          <video id="video-file">
+            <source src="bloc-beton-camion.mp4" type="video/mp4">
+          </video>
+
+          <!-- chercher bouton play dans Remix Icon et intégrer dans  l'élément button icon class sans oublier de rajouter la classe video_button à la suite , ensuite ajouter l'id="video-icon"-->
+          <button class="button button--flex video_button" id="video-button">
+            <i class="ri-play-line video_button-icon" id="video-icon"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLACES = SPOTS  JS -->
+
+    <section class="place section" id="place">
+      <h2 class="section_title">Choisis Ton Spot!</h2>
+      <div class="place_container container grid">
+
+        <!-- PLACES CARD1 = SPOTS  JS -->
+        <div class="place_card">
+          <img src="Graff19.jpg" alt="" class="place_img">
+          <div class="place_content">
+            <span class="place_rating">
+              <i class="ri-star-line place_rating-icon"></i>
+              <span class="place_rating-number">4.8</span>
+            </span>
+
+            <div class="place_data">
+              <h3 class="place_title">Bali</h3>
+              <span class="place_subtitle">Indonesia</span>
+              <!-- <span class="place_price">156$</span> -->
+            </div>
+          </div>
+
+          <button class="button button--flex place_button">
+            <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+
+        <!-- PLACES CARD2 = SPOTS  JS -->
+        <div class="place_card">
+          <img src="Graff1.jpg" alt="" class="place_img">
+          <div class="place_content">
+            <span class="place_rating">
+              <i class="ri-star-line place_rating-icon"></i>
+              <span class="place_rating-number">4.5</span>
+            </span>
+
+            <div class="place_data">
+              <h3 class="place_title">Bora Bora</h3>
+              <span class="place_subtitle">Polynesia</span>
+              <!-- <span class="place_price">657$</span> -->
+            </div>
+          </div>
+
+          <button class="button button--flex place_button">
+            <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+
+        <!-- PLACES CARD3 = SPOTS  JS -->
+        <div class="place_card">
+          <img src="Graff2.jpg" alt="" class="place_img">
+          <div class="place_content">
+            <span class="place_rating">
+              <i class="ri-star-line place_rating-icon"></i>
+              <span class="place_rating-number">3.8</span>
+            </span>
+
+            <div class="place_data">
+              <h3 class="place_title">Chili</h3>
+              <span class="place_subtitle">Concarne</span>
+              <!-- <span class="place_price">968$</span> -->
+            </div>
+          </div>
+
+          <button class="button button--flex place_button">
+            <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+
+        <!-- PLACES CARD4 = SPOTS  JS -->
+        <div class="place_card">
+          <img src="Graff13.jpg" alt="" class="place_img">
+          <div class="place_content">
+            <span class="place_rating">
+              <i class="ri-star-line place_rating-icon"></i>
+              <span class="place_rating-number">3.8</span>
+            </span>
+
+            <div class="place_data">
+              <h3 class="place_title">Hvar</h3>
+              <span class="place_subtitle">Croatia</span>
+              <!-- <span class="place_price">856$</span> -->
+            </div>
+          </div>
+
+          <button class="button button--flex place_button">
+            <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+
+        <!-- PLACES CARD5 = SPOTS  JS -->
+        <div class="place_card">
+          <img src="Graff20.jpg" alt="" class="place_img">
+          <div class="place_content">
+            <span class="place_rating">
+              <i class="ri-star-line place_rating-icon"></i>
+              <span class="place_rating-number">4.8</span>
+            </span>
+
+            <div class="place_data">
+              <h3 class="place_title">Hawaii</h3>
+              <span class="place_subtitle">EE.UU</span>
+              <!-- <span class="place_price">856$</span> -->
+            </div>
+          </div>
+
+          <button class="button button--flex place_button">
+            <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+
+
+
+      </div>
+    </section>
+    <!--============ SUBSCRIBE ===========-->
+    <section class="subscribe section">
+      <div class="subscribe_bg">
+        <div class="subscribe_container container">
+          <h2 class="section_title subscribe_title">Subscribe Our <br>Newsletter</h2>
+          <p class="subscribe_description">Subscribe to our newsletter and get a special 30% discount.</p>
+          <form action="" class="subscribe_form">
+            <input type="text" placeholder="Enter email" class="subscribe_input">
+
+            <button class="button">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+
+    </section>
+
+    <!--============ SPONSORS  ===========-->
+    <section class="sponsor section">
+      <div class="sponsor_container container grid">
+        <div class="sponsor_content">
+          <img src="aerosol.svg" alt="" class="sponsor_img">
+        </div>
+        <div class="sponsor_content">
+          <img src="masque-a-gaz.svg" alt="" class="sponsor_img">
+        </div>
+        <div class="sponsor_content">
+          <img src="spray-paint.svg" alt="" class="sponsor_img">
+        </div>
+        <div class="sponsor_content">
+          <img src="running.svg" alt="" class="sponsor_img">
+        </div>
+        <div class="sponsor_content">
+          <img src="ghettoblaster.svg" alt="" class="sponsor_img">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--============ FOOTER ===========-->
+
+  <footer class="footer section">
+    <div class="footer_container container grid">
+      <div class="footer_content grid">
+        <div class="footer_data">
+          <h3 class="footer_title">Voyage</h3>
+          <p class="footer_description">Choisissez vos graffs <br>Nous vous indiquons <br>la destination</p>
+          <div>
+            <a href="https://www.facebook.com" target="_blank" class="footer_social">
+              <i class="ri-facebook-box-fill"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="footer_social">
+              <i class="ri-twitter-fill"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="footer_social">
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="footer_social">
+              <i class="ri-youtube-fill"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer_data">
+          <h3 class="footer_subtitle">About</h3>
+
+          <ul>
+            <li class="footer_item">
+              <a href="" class="footer_link">About Us</a>
+            </li>
+            <li class="footer_item">
+              <a href="" class="footer_link">Features</a>
+            </li>
+            <li class="footer_item">
+              <a href="" class="footer_link">New & Blog</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer_data">
+          <h3 class="footer_subtitle">Company</h3>
+
+          <ul>
+            <li class="footer_item">
+              <a href="" class="footer_link">Team</a>
+            </li>
+            <li class="footer_item">
+              <a href="" class="footer_link">Plan & Pricing</a>
+            </li>
+            <li class="footer_item">
+              <a href="" class="footer_link">Become a member</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer_data">
+          <h3 class="footer_subtitle">Support</h3>
+
+          <ul>
+            <li class="footer_item">
+              <a href="" class="footer_link">FAQs</a>
+            </li>
+            <li class="footer_item">
+              <a href="" class="footer_link">Support Center</a>
+            </li>
+            <li class="footer_item">
+              <a href="" class="footer_link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_rights">
+        <p class="footer_copy">2021 InspiBedimcode. All rights reserved</p>
+        <div class="footer_terms">
+          <a href="" class="footer_terms-link">Terms & Agreements</a>
+          <a href="" class="footer_terms-link">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--============ SCROLL UP ===========-->
+
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line scrollup_icon"></i>
+  </a>
+
+  <!--============ SCROLL REVEAL ===========-->
+  <script src="scrollreveal.min.js"></script>
+
+
+  <!--============ Show Scroll  ===========-->
+
+  <!-- SWIPER  JS -->
+
+  <script src="swiper-bundle.min.js"></script>
+
+  <!-- MAIN JS   -->
+
+  <script src="main.js"></script>
+
+
+</body>
+
+</html>
